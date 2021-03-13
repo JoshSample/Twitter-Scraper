@@ -1,2 +1,3 @@
 # Twitter-Scraper
-A Twitter scraper built using the Twitter API, it scrapes the most recent 100 Tweets from a user and from a keyword.
+This program requires a bit of setup to run. First, you must sign up to be a Twitter developer. This will allow you to get your own consumer_key, consumer_secret, access_token, and access_token_secret keys. I have mine obtained from a config.ini file not shared on GitHub for privacy reasons, though if you have your own keys you don't need them in a config file, in which case you can delete the .ini file reading and have your key string hardcoded. <br/><br/>
+As the description states, this is a simple program that will scrape the most recent 100 Tweets from a user and a keyword, and will output the data to a .cvs file. Be sure to install the Tweepy library for use.
